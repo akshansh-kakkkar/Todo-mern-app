@@ -9,7 +9,7 @@ function App() {
   const [search, setSearch] = useState("");
   const [tasks, settasks] = useState([])
   useEffect(() => {
-
+//
     gettasks()
       .then((res) => {
         settasks(res.data)
